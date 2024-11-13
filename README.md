@@ -363,6 +363,62 @@
 </p>
 <p align="center"><i>Рисунок 14.2 – Скриншот отправления всех изменений в удалённый репозиторий</i></p>
 
+## Лог команд
+
+<p>git config --global user.name "4315 Галанжевский Д. С."  
+<p>git config --global user.email "galanzhevskiy2002@mail.ru"  
+<p>git config --global --list  
+<p>cd G:/Progs_Labs_Info/OPGIT  
+<p>git clone https://github.com/Jaxowell/LR6  
+<p>cd LR6  
+<p>git pull  
+<p>git log master  
+<p>git checkout branch1  
+<p>git log  
+<p>git checkout master  
+<p>git checkout branch1  
+<p>git log  
+<p>git checkout master  
+<p>git show master  
+<p>git show branch1  
+<p>gitk --all  
+<p>git show branch1  
+<p>git merge branch1  
+<p>git status  
+<p>notepad mergefile.txt  
+<p>git add mergefile.txt  
+<p>git status  
+<p>git commit -m "Branches successfully connected"  
+<p>git branch -d branch1  
+<p>git branch  
+<p>git push origin --delete branch1  
+<p>echo "Первая запись" >> changes.txt  
+<p>git add changes.txt  
+<p>cat changes.txt  
+<p>git status  
+<p>git commit -m "Added first change"  
+<p>echo "Вторая запись" >> changes_2.txt  
+<p>git add changes_2.txt  
+<p>cat changes_2.txt  
+<p>git status  
+<p>git commit -m "Added second change"  
+<p>echo "Была изменена вторая запись" >> changes_2.txt  
+<p>git add changes_2.txt  
+<p>cat changes_2.txt  
+<p>git status  
+<p>git commit -m "Added third change"  
+<p>git reset HEAD~1  
+<p>git log -3  
+<p>git reset HEAD~1  
+<p>git log -3  
+<p>git branch report  
+<p>git branch  
+<p>git push  
+<p>git push origin report  
+<p>git push origin --delete branch1  
+<p>git branch  
+<p>git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
+
 ## Вывод
 
 В ходе лабораторной работы №6 были изучены Git и получен практический опыт работы с GitHub и Git API. Работа началась с создания форка репозитория, затем была настроена среда git. Репозиторий был клонирован на локальный компьютер, добавлены файлы через интерфейс GitHub и синхронизированы изменения.
