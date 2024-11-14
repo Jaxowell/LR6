@@ -150,17 +150,17 @@
 <p align="center">
   <img src="/Screenshots/1.7.png" alt="Screenshot" />
 </p>
-<p align="center"><i>Рисунок 7.1 – Скриншот вывода команды `git log` для ветки master<i></p>
+<p align="center"><i>Рисунок 7.1 – Скриншот вывода команды `git log` для ветки master</i></p>
 
 <p align="center">
   <img src="/Screenshots/1.7.1.png" alt="Screenshot" />
 </p>
-<p align="center"><i>Рисунок 7.2 – Скриншот вывода команды `git log` для ветки branch1<i></p>
+<p align="center"><i>Рисунок 7.2 – Скриншот вывода команды `git log` для ветки branch1</i></p>
 
 <p align="center">
   <img src="/Screenshots/1.7.2.png" alt="Screenshot" />
 </p>
-<p align="center"><i>Рисунок 7.3 – Скриншот команды переключения на ветку master<i></p>
+<p align="center"><i>Рисунок 7.3 – Скриншот команды переключения на ветку master</i></p>
 
 ### 8. **Просмотр последних изменений**
 
