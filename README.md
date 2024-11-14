@@ -366,59 +366,59 @@
 ## Лог команд
 
 ```
-  <p>git config --global user.name "4315 Галанжевский Д. С."  
-  <p>git config --global user.email "galanzhevskiy2002@mail.ru"  
-  <p>git config --global --list  
-  <p>cd G:/Progs_Labs_Info/OPGIT  
-  <p>git clone https://github.com/Jaxowell/LR6  
-  <p>cd LR6  
-  <p>git pull  
-  <p>git log master  
-  <p>git checkout branch1  
-  <p>git log  
-  <p>git checkout master  
-  <p>git checkout branch1  
-  <p>git log  
-  <p>git checkout master  
-  <p>git show master  
-  <p>git show branch1  
-  <p>gitk --all  
-  <p>git show branch1  
-  <p>git merge branch1  
-  <p>git status  
-  <p>notepad mergefile.txt  
-  <p>git add mergefile.txt  
-  <p>git status  
-  <p>git commit -m "Branches successfully connected"  
-  <p>git branch -d branch1  
-  <p>git branch  
-  <p>git push origin --delete branch1  
-  <p>echo "Первая запись" >> changes.txt  
-  <p>git add changes.txt  
-  <p>cat changes.txt  
-  <p>git status  
-  <p>git commit -m "Added first change"  
-  <p>echo "Вторая запись" >> changes_2.txt  
-  <p>git add changes_2.txt  
-  <p>cat changes_2.txt  
-  <p>git status  
-  <p>git commit -m "Added second change"  
-  <p>echo "Была изменена вторая запись" >> changes_2.txt  
-  <p>git add changes_2.txt  
-  <p>cat changes_2.txt  
-  <p>git status  
-  <p>git commit -m "Added third change"  
-  <p>git reset HEAD~1  
-  <p>git log -3  
-  <p>git reset HEAD~1  
-  <p>git log -3  
-  <p>git branch report  
-  <p>git branch  
-  <p>git push  
-  <p>git push origin report  
-  <p>git push origin --delete branch1  
-  <p>git branch  
-  <p>git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
+  git config --global user.name "4315 Галанжевский Д. С."  
+  git config --global user.email "galanzhevskiy2002@mail.ru"  
+  git config --global --list  
+  cd G:/Progs_Labs_Info/OPGIT  
+  git clone https://github.com/Jaxowell/LR6  
+  cd LR6  
+  git pull  
+  git log master  
+  git checkout branch1  
+  git log  
+  git checkout master  
+  git checkout branch1  
+  git log  
+  git checkout master  
+  git show master  
+  git show branch1  
+  gitk --all  
+  git show branch1  
+  git merge branch1  
+  git status  
+  notepad mergefile.txt  
+  git add mergefile.txt  
+  git status  
+  git commit -m "Branches successfully connected"  
+  git branch -d branch1  
+  git branch  
+  git push origin --delete branch1  
+  echo "Первая запись" >> changes.txt  
+  git add changes.txt  
+  cat changes.txt  
+  git status  
+  git commit -m "Added first change"  
+  echo "Вторая запись" >> changes_2.txt  
+  git add changes_2.txt  
+  cat changes_2.txt  
+  git status  
+  git commit -m "Added second change"  
+  echo "Была изменена вторая запись" >> changes_2.txt  
+  git add changes_2.txt  
+  cat changes_2.txt  
+  git status  
+  git commit -m "Added third change"  
+  git reset HEAD~1  
+  git log -3  
+  git reset HEAD~1  
+  git log -3  
+  git branch report  
+  git branch  
+  git push  
+  git push origin report  
+  git push origin --delete branch1  
+  git branch  
+  git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
 ```
 
 ## Вывод
